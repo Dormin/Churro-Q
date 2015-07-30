@@ -1,6 +1,9 @@
+// Entry point
 (function () {
   "use strict"
 
-  // Entry point
+  var game = CHURRO.game
+  
+  game.run()
 
 })()
