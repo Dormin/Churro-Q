@@ -1,11 +1,17 @@
 CHURRO.game = (function () {
   "use strict"
 
-  var ticker
+  var renderer
+    , ticker
 
   return {
+    set_renderer: set_renderer,
     set_ticker: set_ticker,
     run: run
+  }
+
+  function set_renderer(r) {
+    renderer = r
   }
 
   function set_ticker(t) {
