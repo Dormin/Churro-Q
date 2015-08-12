@@ -24,7 +24,7 @@ CHURRO.game = (function () {
   }
 
   function on_tick(dt) {
-    
+    renderer.clear([0, 0, 0])
   }
 
 })()
